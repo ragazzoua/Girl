@@ -7,7 +7,5 @@ public class Main {
         Girl ira1 = new Girl();
         System.out.println(ira);
         System.out.println(ira1);
-
-
     }
 }

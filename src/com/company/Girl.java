@@ -9,7 +9,6 @@ public class Girl {
     int age;
 
     public Girl(String name, int age) {
-
         this.name = name;
         this.age = age;
     }
