@@ -49,5 +49,6 @@ public class Girl {
     @Override
     protected void finalize()  {
         System.out.println("Good Bye");
+        System.out.printf("Good Bye %s", name);
     }
 }
