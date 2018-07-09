@@ -14,7 +14,7 @@ public class Girl {
     }
 
     public Girl() {
-        name = "Ket";
+        name = "ket";
         age = 20;
     }
 
@@ -24,5 +24,25 @@ public class Girl {
                 "name='" + name + '\'' +
                 ", age=" + age +
                 '}';
+    }
+
+    public void goToCinema() {
+        System.out.println("go with " + name);
+    }
+
+    public String goToRest(String rest) {
+        if ("Mac".equals(rest)) {
+            return "No";
+        } else {
+            return "Yes";
+        }
+    }
+
+    public int countInts(int ...a) {
+int sum =0;
+        for (int i : a) {
+            sum+=i;
+        }
+        return sum;
     }
 }
