@@ -7,6 +7,12 @@ package com.company;
 public class A {
     void m(){
         System.out.println("m()");
+        Integer p = 20; /*ссылочные и значимые типы данных*/
+        int o = 20;
+
+        System.out.println(p.byteValue());
+        System.out.println(o);
+
     }
     /*void m(int a){
         System.out.println("int a");
