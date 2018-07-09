@@ -38,10 +38,11 @@ public class Girl {
         }
     }
 
-    public int countInts(int ...a) {
-int sum =0;
+    public int countInts(String s, int... a) {
+        System.out.println(s);
+        int sum = 0;
         for (int i : a) {
-            sum+=i;
+            sum += i;
         }
         return sum;
     }
