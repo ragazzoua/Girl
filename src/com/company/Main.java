@@ -3,10 +3,12 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-        A a = new A();
-        a.m(0);
-        a.m(1,2);
-        a.m(1,2,3,4,5);
-        /*a.m(1.4);*/
+        aMethod((byte) 9);
+    }
+    public static void  aMethod(byte val){
+        System.out.println("byte");
+    }
+    public static void  aMethod(short val){
+        System.out.println("short");
     }
 }
