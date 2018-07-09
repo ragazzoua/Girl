@@ -1,5 +1,7 @@
 package com.company;
 
+import java.util.Arrays;
+
 /**
  * created by s.a.miroshnychenko 7/5/2018
  */
@@ -40,10 +42,7 @@ public class Girl {
 
     public int countInts(String s, int... a) {
         System.out.println(s);
-        int sum = 0;
-        for (int i : a) {
-            sum += i;
-        }
-        return sum;
+
+        return Arrays.stream(a).sum();
     }
 }
