@@ -11,5 +11,8 @@ public class Main {
         System.out.println(ira);
         System.out.println(ira1);
         ira1.goToCinema();
+        ira1=null;
+        ira=null;
+        System.gc();
     }
 }

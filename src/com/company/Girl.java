@@ -45,4 +45,9 @@ public class Girl {
 
         return Arrays.stream(a).sum();
     }
+
+    @Override
+    protected void finalize()  {
+        System.out.println("Good Bye");
+    }
 }
