@@ -7,8 +7,8 @@ import java.util.Arrays;
  */
 
 public class Girl {
-    String name;
-    int age;
+    private String name;
+    private int age;
 
     public Girl(String name, int age) {
         this.name = name;
@@ -50,5 +50,20 @@ public class Girl {
     protected void finalize()  {
         System.out.println("Good Bye");
         System.out.printf("Good Bye %s", name);
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        if (age > 16 && age < 30)
+        this.age = age;
+        else {
+            System.out.println("hello");        }
     }
 }
