@@ -8,7 +8,7 @@ import com.company.С2.A3;
 
 public class Main {
     public static void main(String[] args) {
-        A1 a = new A3();
+        A1 a = new A3(); //gggfgfgf
         a.m();
     }
 }
